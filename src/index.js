@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-const App = render(<h1>Hello world</h1>, document.getElementById('root'));
+import App from './components/App';
 
-export default App;
+const Root = render(<App />, document.getElementById('root'));
+
+export default Root;

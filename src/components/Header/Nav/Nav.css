@@ -1,0 +1,28 @@
+.navbar {
+  padding: 1.5rem;
+}
+
+.navbarBrand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbarNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navItem {
+  padding: 0 50px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .1px;
+  text-align: left;
+}
